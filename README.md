@@ -25,7 +25,6 @@ Delivery Fee: ₹40
 
 🚚 Add ₹65 more to unlock FREE DELIVERY
 
-*(Paste Feature Screenshot Here)*
 
 The hypothesis was that this feature would encourage customers to add more items to their cart, resulting in:
 
@@ -95,7 +94,8 @@ The experiment was conducted using six relational tables.
 | orders |
 | experiment_assignment |
 
-*(Paste Schema Screenshot Here)*
+<img width="1917" height="1077" alt="schema" src="https://github.com/user-attachments/assets/f62a62a7-10a1-4d18-8262-f69ac4ca5472" />
+
 
 ---
 
@@ -108,7 +108,8 @@ The following validation checks were performed before analysis.
 - Duplicate Checks
 - Foreign Key Validation
 
-*(Paste Validation Screenshots Here)*
+<img width="1917" height="1077" alt="data_validation" src="https://github.com/user-attachments/assets/1ac8a8b1-bfee-493a-9273-956a151f5d51" />
+
 
 ---
 
@@ -127,7 +128,8 @@ Result:
 
 ✅ Experiment groups were well balanced, indicating successful randomization.
 
-*(Paste Experiment Validation Screenshots Here)*
+<img width="1918" height="1078" alt="experiment_validation" src="https://github.com/user-attachments/assets/9845098e-996b-4d46-89d6-76eef9a886d8" />
+
 
 ---
 
@@ -155,7 +157,8 @@ Orders
 
 The funnel was analyzed to identify user drop-offs between each stage.
 
-*(Paste Funnel Screenshot Here)*
+<img width="1502" height="917" alt="funnel" src="https://github.com/user-attachments/assets/92f76986-5a36-4d79-bc87-0314d582701e" />
+
 
 ---
 
@@ -181,7 +184,8 @@ The following KPIs were analyzed using SQL.
 | Average Margin | ₹58.32 | ₹57.99 | -₹0.33 | -0.57% |
 | Cancellation Rate | **3.31%** | **2.96%** | **-0.35 pp** | **-10.57%** |
 
-*(Paste KPI Screenshot Here)*
+<img width="1918" height="1078" alt="kpis" src="https://github.com/user-attachments/assets/740146a4-fe41-4973-a308-0afa78bac554" />
+
 
 ---
 
@@ -205,7 +209,8 @@ P-value > 0.05
 
 we **Fail to Reject the Null Hypothesis.**
 
-*(Paste Python Screenshot Here)*
+<img width="1216" height="546" alt="ztest" src="https://github.com/user-attachments/assets/d07d87ab-c487-474f-a5fb-695e25a7a30b" />
+
 
 ---
 
@@ -269,17 +274,6 @@ the improvement in the primary metric was **not statistically significant**.
 - Hypothesis Testing
 - Statistical Significance Testing
 
----
-
-# 📷 Project Screenshots
-
-- Data Validation
-- Experiment Validation
-- Funnel Analysis
-- KPI Summary
-- Python Statistical Testing
-
-*(Paste all screenshots here)*
 
 ---
 
